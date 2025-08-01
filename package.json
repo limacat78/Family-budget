@@ -11,6 +11,7 @@
     "db:push": "drizzle-kit push"
   },
   "dependencies": {
+    "esbuild": "^0.25.0"
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",
     "@neondatabase/serverless": "^0.10.4",
@@ -78,7 +79,6 @@
     "zod-validation-error": "^3.4.1"
   },
  "devDependencies": {
-  "esbuild": "^0.25.0",
   "@replit/vite-plugin-cartographer": "^0.2.0",
   "@replit/vite-plugin-runtime-error-modal": "^0.0.3",
   "@tailwindcss/typography": "^0.5.15",
